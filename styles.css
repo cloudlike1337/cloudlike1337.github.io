@@ -185,3 +185,25 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ... other CSS ... */
+
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+}
+
+.images-container {
+    margin-right: 20px; /* Adds some space between the images and the audio list */
+}
+
+.audio-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.audio-container li {
+    margin-bottom: 10px; /* Adds some space between audio controls */
+}
+
+/* ... other CSS ... */

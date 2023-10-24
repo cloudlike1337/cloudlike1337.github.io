@@ -227,4 +227,31 @@ body {
     height: auto;
 }
 
+/* Styles for the songs page */
+.songs {
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin-bottom: 30px;
+}
+
+.song-list h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
 /* ... other CSS ... */
+.song-credits {
+    font-size: 14px; /* smaller font size for credits */
+    margin-bottom: 15px; /* space before the audio player */
+    color: #aaa; /* slightly muted color to differentiate from the main title */
+}

@@ -204,6 +204,27 @@ body {
 
 .audio-container li {
     margin-bottom: 10px; /* Adds some space between audio controls */
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /* to align items vertically in the center */
+    gap: 40px; /* space between the text and the image */
+}
+
+.text-content {
+    flex: 1; /* take up the available space */
+    max-width: 60%; /* you can adjust this based on your preference */
+}
+
+.image-content {
+    flex-basis: 40%; /* takes up 40% of the container width, you can adjust based on your preference */
+}
+
+.image-content img {
+    max-width: 70%; /* to ensure the image is responsive and doesn't overflow its container */
+    height: auto;
 }
 
 /* ... other CSS ... */

@@ -195,7 +195,9 @@ body {
 
 .images-container {
     margin-right: 20px; /* Adds some space between the images and the audio list */
+    text-align: center; /* This will center inline-level elements (like the image) horizontally */
 }
+
 
 .audio-container ul {
     list-style: none;
@@ -254,4 +256,7 @@ body {
     font-size: 14px; /* smaller font size for credits */
     margin-bottom: 15px; /* space before the audio player */
     color: #aaa; /* slightly muted color to differentiate from the main title */
+}
+.project h2 {
+    text-align: center;
 }

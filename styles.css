@@ -260,3 +260,10 @@ body {
 .project h2 {
     text-align: center;
 }
+
+.image-content img {
+    max-width: 100%; /* Ensure the image stays responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Adjust the width as desired */
+}
+
